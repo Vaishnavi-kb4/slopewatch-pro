@@ -8,7 +8,7 @@ import streamlit as st
 # Add parent of parent dir to path to import mine_safety_system as a package
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
 
-from dashboard.style import apply_custom_style
+from mine_safety_system.dashboard.style import apply_custom_style
 from mine_safety_system.dashboard.views.landing import render_landing
 from mine_safety_system.dashboard.views.main_dashboard import render_dashboard
 from mine_safety_system.dashboard.views.zone_detail import render_zone_detail
